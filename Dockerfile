@@ -11,7 +11,6 @@ RUN yum install -y unzip
 RUN wget https://sourceforge.net/projects/lazarus/files/Lazarus%20Linux%20x86_64%20RPM/Lazarus%201.6/fpc-3.0.0-1.x86_64.rpm
 RUN rpm -Uvh fpc-3.0.0-1.x86_64.rpm
 
-
 WORKDIR /workspace
 RUN cd /workspace
 
