@@ -17,3 +17,7 @@ RUN cd /workspace
 RUN wget http://www.math.unicaen.fr/~dehornoy/Softwares/MoKaSources.zip
 RUN unzip MoKaSources.zip
 RUN cd MoKaSources && fpc -Sh MoKa.lpr && cp MoKa /usr/bin/.
+
+RUN wget http://www.math.unicaen.fr/~dehornoy/Softwares/BraidsSources.zip
+RUN unzip BraidsSources.zip
+RUN cd BraidsSources && fpc -Sh Braids.lpr && cp Braids /usr/bin/.
