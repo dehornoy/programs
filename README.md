@@ -1,6 +1,5 @@
-This image is designed to provide a simple way to execute Pascal programs on an arbitrary platform.
-For the moment, the available programs are MoKa and Braids, two softwares that manipulate algebraic structures
-called "gcd-monoids" (MoKa) and braids (Braids).
+This image is designed to provide a simple way to execute Patrick Dehornoy's Pascal programs on an arbitrary platform.
+The available programs are MoKa and Braids (Sep. 2016).
 
 ####How use it
 
